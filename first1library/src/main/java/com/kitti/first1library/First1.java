@@ -4,57 +4,57 @@ public class First1 {
 
     private int a, b, c;
 
-    First1() {
+    public First1() {
         a = 0;
         b = 0;
         c = 0;
     }
 
-    First1(int a, int b) {
+    public First1(int a, int b) {
         this.a = a;
         this.b = b;
     }
 
-    int getA() {
+    public int getA() {
         return a;
     }
 
-    void setA(int a) {
+    public void setA(int a) {
         this.a = a;
     }
 
-    int getB() {
+    public int getB() {
         return b;
     }
 
-    void setB(int b) {
+    public void setB(int b) {
         this.b = b;
     }
 
-    int getC() {
+    public int getC() {
         return c;
     }
 
-    void setC(int c) {
+    public void setC(int c) {
         this.c = c;
     }
 
-    int plus(int a, int b) {
+    public int plus(int a, int b) {
         c = a + b;
         return c;
     }
 
-    int subtract(int a, int b) {
+    public int subtract(int a, int b) {
         c = a - b;
         return c;
     }
 
-    int multiply(int a, int b) {
+    public int multiply(int a, int b) {
         c = a * b;
         return c;
     }
 
-    int divide(int a, int b) {
+    public int divide(int a, int b) {
         c = a / b;
         return c;
     }
