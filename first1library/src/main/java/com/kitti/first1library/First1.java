@@ -1,6 +1,6 @@
 package com.kitti.first1library;
 
-class First1 {
+public class First1 {
 
     private int a, b, c;
 
